@@ -31,11 +31,15 @@ class Navbar extends Component {
                                 : "nav-links"
                         }
                     >
-                        <li>
-                            <Link to="/"> Home </Link>
+                        <li onClick={() => window.scrollTo(0, 0)}>
+                            <Link to="/" onClick={this.handleToggle}>
+                                Home
+                            </Link>
                         </li>
-                        <li>
-                            <Link to="/rooms"> Rooms </Link>
+                        <li onClick={() => window.scrollTo(0, 0)}>
+                            <Link to="/rooms" onClick={this.handleToggle}>
+                                Rooms
+                            </Link>
                         </li>
                     </ul>
                 </div>
