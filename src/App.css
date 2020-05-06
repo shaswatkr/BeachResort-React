@@ -228,11 +228,47 @@ h6 {
 }
 /* end of Title */
 
+/* footers */
+.footers {
+    padding: 5rem 0;
+    background: var(--offWhite);
+    text-align: center;
+}
+.footers-center {
+    opacity: 1 !important;
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
+}
+.footer span {
+    display: inline-block;
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+}
+.footers h6 {
+    opacity: 0.7;
+    letter-spacing: 1px;
+    margin-bottom: 5px !important;
+}
+.footers p {
+    width: 80%;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+.footers a {
+    color: inherit;
+    padding: 5px;
+    font-size: 2rem;
+}
+/* end of footers */
+
 /* services */
 .services {
     padding: 5rem 0;
-}
-.services {
     background: var(--darkGrey);
     text-align: center;
 }
