@@ -1,3 +1,19 @@
+The app is built using React and styled using css along with React-icons!
+
+The project contains all the functionality:
+
+-   A homepage showing a banner, services available in hotel, featured rooms and a footer,
+-   A navbar which stick to the top and minimizes into a button when width decrease below 768px,
+-   Navbar can be maximized with button click and minimized again with the same,
+-   There is a room page which shows all the rooms present as per filter,
+-   Various filters available to enhance searching experience,
+-   Filtering occurs dynamically,
+-   Clicking on a particular room open the single room page,
+-   Single room page contains a header with the room's thumbnail image and other image too, with entire detail regarding the room,
+-   And finally depolying it into server using [Netlify](https://www.netlify.com/).
+
+> The project is hosted in site [Mobile Store(https://shaswatkr-resort.netlify.app)](https://shaswatkr-resort.netlify.app).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
